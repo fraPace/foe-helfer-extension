@@ -24,12 +24,6 @@
 		"sort": 3
 	},
 	{
-		"name": "SendPlayersMotivation",
-		"status": false,
-		"group": "Sending",
-		"sort": 4
-	},
-	{
 		"name": "AutomaticNegotiation",
 		"status": true,
 		"group": "Boxes",
@@ -72,30 +66,60 @@
 		"sort": 7
 	},
 	{
+		"name": "ShowBlueGalaxyHelper",
+		"status": true,
+		"group": "Boxes",
+		"sort": 8
+	},
+	{
+		"name": "ShowPlayersMotivation",
+		"status": true,
+		"group": "Boxes",
+		"sort": 9
+	},
+	{
 		"name": "ChangeLanguage",
 		"callback": "LanguageDropdown",
 		"group": "Extension",
 		"sort": 0
 	},
 	{
+		"name": "SelectedMenu",
+		"callback": "MenuSelected",
+		"group": "Extension",
+		"sort": 1
+	},
+	{
 		"name": "MenuLength",
 		"callback": "MenuInputLength",
 		"group": "Extension",
-		"sort": 1
+		"sort": 2
 	},
 	{
 		"name": "ResetBoxPositions",
 		"button": "ResetBoxCoords",
 		"group": "Extension",
-		"sort": 2
+		"sort": 3
 	},
 	{
 		"name": "ExportSettings",
 		"callback": "ExportView",
 		"group": "Extension",
-		"sort": 3
+		"sort": 4
 	},
-
+	{
+		"name": "ShowNotifications",
+		"status": true,
+		"group": "Extension",
+		"sort": 5
+	},
+	{
+		"name": "NotificationsPosition",
+		"callback": "NotificationView",
+		"group": "Extension",
+		"status": "bottom-right",
+		"sort": 6
+	},
 	{
 		"name": "About",
 		"callback": "About",

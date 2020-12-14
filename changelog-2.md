@@ -1,5 +1,121 @@
 ## Changelog - Extension
 
+##### 2.5.4.0
+
+**New**
+- Menu:
+    - [#1664](https://github.com/dsiekiera/foe-helfer-extension/issues/1664) [#1665](https://github.com/dsiekiera/foe-helfer-extension/issues/1665) There are now 3 menu variants (right, bottom and box).
+    - Selectable via "Settings > General > Change Menu".
+    - Redesign (smaller, new graphics) of the bottom and box variant for more space
+
+- Extension:
+    - Notifications can now be switched off via "Settings > General > Notification".
+    - The notifications can appear at different positions "Settings > General > Notification positions".
+
+**Update**
+- City overview:
+    - [#1659](https://github.com/dsiekiera/foe-helfer-extension/issues/1659) Translations for the statistics have been added
+
+- Blue Galaxy Helper:
+    - [#1653](https://github.com/dsiekiera/foe-helfer-extension/issues/1653) can now weight by goods. If you only want to weight by FP, change the value to "0" (zero).
+
+- Production overview:
+    - [#1646](https://github.com/dsiekiera/foe-helfer-extension/issues/1646) now updates when harvest is collected with diamonds
+
+- Infobox:
+    - [#1552](https://github.com/dsiekiera/foe-helfer-extension/issues/1552) from now on you can search for a text in the filter
+
+- Extension:
+    - many translations from [i18n.foe-helper.com](http://i18n.foe-helper.com/projects/foe-helper/extension/) have been integrated. Help us to integrate even more translations and register yourself
+
+**Bugfix**
+- FP Collector:
+    - [#1690](https://github.com/dsiekiera/foe-helfer-extension/issues/1690) the collector did not count all duplications
+    - [#1693](https://github.com/dsiekiera/foe-helfer-extension/issues/1693) fixed translation error
+
+- Extension:
+    - [#1687](https://github.com/dsiekiera/foe-helfer-extension/issues/1687) in Firefox not all translations were loaded
+
+- Menu:
+    - [#1681](https://github.com/dsiekiera/foe-helfer-extension/issues/1681) the drag&drop was too sensitive and always gave the message "The new menu order has been saved", we have changed that
+
+
+---
+
+##### 2.5.3.2
+
+**BugFix**
+- FP Collector:
+    - A small bug prevented the menu button
+
+---
+
+##### 2.5.3.2
+
+**BugFix**
+- FP Collector:
+    - A small bug prevented the menu button
+
+---
+
+
+##### 2.5.3.1
+
+**New**
+
+- FP Collector:
+    - Collects by day and by type all FPs you collect in the whole game to create a complete overview of your "by the way" FPs
+
+**Update**
+
+- Menu:
+    - [#1661](https://github.com/dsiekiera/foe-helfer-extension/issues/1661) [#1657](https://github.com/dsiekiera/foe-helfer-extension/issues/1657) Because of the new dynamic menu, the helper's menu moves to the bottom
+
+- Motivation Helper:
+    - The values can be sorted via the tab head
+    - Filter for various events [#1652](https://github.com/dsiekiera/foe-helfer-extension/issues/1652)
+    - Coloured values for better differentiation
+
+**BugFix**
+
+- Event helper:
+    - [#1655](https://github.com/dsiekiera/foe-helfer-extension/issues/1655) Incorrect recognition of the daily price Football Event 2021
+
+---
+
+##### 2.5.3.0
+
+**New**
+
+- Blue Galaxy helpers:
+    - If activated in "Settings > Boxes > Blue Galaxy" (default "on"), clicking on the harvestable Blue Galaxy will open a box that shows the FP strongest doublable buildings with the correct number of trials
+
+- Motivation helper ****BETA****:
+    - If activated in "Settings > Boxes > Motivations" (default = "on") all events in the town hall are noted down and can be opened by clicking on the button in the menu.
+      If a tab is crossed out, please click on the tabs of the game below accordingly.
+
+**Update**
+- extension:
+    - Icons revised
+
+- Own contribution calculator:
+    - [#1638](https://github.com/dsiekiera/foe-helfer-extension/issues/1638) Copy overlay centred and new checkbox integrated
+
+- Combat assistant:
+    - [#903](https://github.com/dsiekiera/foe-helfer-extension/issues/903) The warning window can now be disabled in the settings
+
+- Product overview:
+    - [#1629](https://github.com/dsiekiera/foe-helfer-extension/issues/1629) Another tab shows how many units are produced in non military buildings
+
+**Bugfix**
+- Extension:
+    - [#1649](https://github.com/dsiekiera/foe-helfer-extension/issues/1649) Innogames has changed something in the code that had broken the menu
+
+- Product overview:
+    - [#1640](https://github.com/dsiekiera/foe-helfer-extension/issues/1640) Produced FP of the statue of honour were not shown
+
+---
+
 ##### 2.5.2.9
 
 **Bugfix**
